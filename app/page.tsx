@@ -8,6 +8,7 @@ import {
   TrendingUp,
   Settings,
 } from "lucide-react";
+import FAQSection from "@/components/FAQSection";
 
 export default function Home() {
   return (
@@ -140,6 +141,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQSection />
     </main>
   );
 }
